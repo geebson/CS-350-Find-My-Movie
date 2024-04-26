@@ -1,0 +1,50 @@
+h1 {
+  text-align: center;
+  color: blue;
+  font-family: "Impact", sans-serif;
+  font-size: 3em;
+}
+
+.box {
+  border: 4px solid #666;
+  padding: .5em;
+}
+
+.box.header {
+  border-color: DodgerBlue;
+  font-weight: bold;
+}
+
+.box.login {
+  border-color: White
+  font-weight: bold;
+}
+
+p {
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+ol, ul {
+  border: 4px solid #666;
+  padding-right: 0px;
+  padding-left: 28px;
+  width: 75px;
+  border-color: DodgerBlue;
+}
+
+ul {
+padding-left: 10px;
+  list-style-type: none;
+}
+
+ul>li:nth-child(1)::before{
+  content: "🧔";
+}
+
+ul>li:nth-child(2)::before{
+  content: "👩";
+}
+
+ul>li:nth-child(3)::before{
+  content: "👩";
+}
